@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(0, 191, 255);
+}
+
+
+#tweet-list li {
+  margin: 5px 0px;
+}
+
+.tweet-username {
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#Twitter {
+  font-family: impact;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+#current-user-header {
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(0, 0, 255);
+}
+
+.panel-heading {
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.btn {
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
+  background-color: white;
+  color: black;
+  border-color: black;
+  font-family: cursive;
+  font-size: 15px;
+  padding: 5px 10px;
+  border: solid 3px black;
+  border-style: double;
+}
+
+.btn:hover {
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  background-color: rgb(0, 153, 255);
+  color: white;
+  box-shadow: 5px 5px 5px black;
+}
